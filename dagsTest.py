@@ -390,7 +390,7 @@ class Day19:
 class Day20:
 
 	def asterix(self, s):
-		badWords = ['fuck', 'slut', 'idiot']
+		badWords = ['fuck', 'idiot']
 		retSt = ''
 		words = s.split(' ')
 		for i in range(0, len(words)):
